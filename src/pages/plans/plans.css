@@ -1,0 +1,10 @@
+.price::before {
+    content: "$";
+    margin-right: 2px;
+}
+
+.price::after{
+    content: "/mo";
+    color: rgb(95, 104, 115);
+    font-size: xx-large;
+}

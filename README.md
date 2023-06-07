@@ -1,2 +1,1 @@
-# Fitify-website-main
-Completed Frontend Project
+#This is Fitify a gym mock website

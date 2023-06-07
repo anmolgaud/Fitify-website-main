@@ -1,0 +1,32 @@
+.box::before {
+    content:"";
+    position: absolute;
+    z-index: 10;
+    inset: -10px 140px;
+    background: linear-gradient(315deg, #00ccff, #d400d4);
+    transition: 0.5s;
+    animation: rotate 4s linear infinite;
+}
+
+
+.box::after{
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 20;
+    inset:6px;
+    border-radius: 50%;
+    background-color: rgb(15,23,42);
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
